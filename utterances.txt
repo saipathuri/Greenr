@@ -1,0 +1,39 @@
+GetDirections what is the best way to get to {Address}
+GetDirections what is the cleanest way to get to {Address}
+GetDirections what is the greenest way to get to {Address}
+GetDirections {Address}
+GetDirections go to {Address}
+GetDirections i want to go to {Address}
+GetDirections what are the directions to {Address}
+GetDirections {Address}
+GetDirections find directions to {Address}
+
+GetDirections what is the best way to get to {FinBusiness}
+GetDirections what is the cleanest way to get to {FinBusiness}
+GetDirections what is the greenest way to get to {FinBusiness}
+GetDirections {FinBusiness}
+GetDirections go to {FinBusiness}
+GetDirections i want to go to {FinBusiness}
+GetDirections what are the directions to {FinBusiness}
+GetDirections {FinBusiness}
+GetDirections find directions to {FinBusiness}
+
+GetDirections what is the best way to get to {FoodBusiness}
+GetDirections what is the cleanest way to get to {FoodBusiness}
+GetDirections what is the greenest way to get to {FoodBusiness}
+GetDirections {FoodBusiness}
+GetDirections go to {FoodBusiness}
+GetDirections i want to go to {FoodBusiness}
+GetDirections what are the directions to {FoodBusiness}
+GetDirections {FoodBusiness}
+GetDirections find directions to {FoodBusiness}
+
+GetDirections what is the best way to get to {LocalBusiness}
+GetDirections what is the cleanest way to get to {LocalBusiness}
+GetDirections what is the greenest way to get to {LocalBusiness}
+GetDirections {LocalBusiness}
+GetDirections go to {LocalBusiness}
+GetDirections i want to go to {LocalBusiness}
+GetDirections what are the directions to {LocalBusiness}
+GetDirections {LocalBusiness}
+GetDirections find directions to {LocalBusiness}

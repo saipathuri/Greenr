@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "intent": "GetDirections",
+      "slots": [
+        {
+          "name": "Address",
+          "type": "AMAZON.PostalAddress"
+        },
+        {
+          "name": "FinBusiness",
+          "type": "AMAZON.FinancialService"
+        },
+        {
+          "name": "FoodBusiness",
+          "type": "AMAZON.FoodEstablishment"
+        },
+        {
+          "name": "LocalBusiness",
+          "type": "AMAZON.LocalBusiness"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
