@@ -14,8 +14,7 @@ def launch_skill():
 	if permissions_check():
 		return question(render_template('welcome'))
 	else:
-		# return statement(render_template('permissions_error'))
-		return statement("failed")
+		return statement(render_template('permissions_error'))
 
 @ask.intent("GetDirections", convert={'Address':str, 'FinBusiness':str, 'FoodBusiness':str, 'LocalBusiness':str}, mapping={'dest_addr': 'Address', 'dest_fin_bus':'FinBusiness', 'dest_food_bus':'FoodBusiness', 'dest_local_bus':'LocalBusiness'})
 def directions(dest_addr, dest_fin_bus, dest_local_bus, dest_food_bus):
