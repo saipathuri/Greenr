@@ -57,7 +57,7 @@ def directions(dest_addr, dest_fin_bus, dest_local_bus, dest_food_bus):
 
 		card_output = "{walk}\n{bike}\n{transit}\n{drive}".format(walk=walking_output, bike=biking_output, transit=transit_output, drive=driving_output)
 
-		return statement(render_template('recommendation', address=dest_addr, drivingCarbon=driving_carbon_str, diffDrivingTransit=diff_driving_transit_str)).simple_card(title="Your Greenr Trip", content=card_output)
+		return statement(render_template('recommendation', address=dest_addr, drivingCarbon=driving_carbon_str, diffDrivingTransit=diff_driving_transit_str)).simple_card(title="Your Greenr Trip to {address}".format(address=dest_addr), content=card_output)
 
 @ask.intent("AMAZON.StopIntent")
 def stop():
