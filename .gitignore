@@ -1,0 +1,10 @@
+*.pyc
+pip-selfcheck.json
+bin/
+include/
+lib/
+.python
+
+*.png
+*.txt
+

@@ -1,0 +1,6 @@
+welcome: "Welcome to Greener. Where would you like to go?"
+bye: "Good bye and stay green!"
+help: "For example, Say Greenr, I want to go to 5th Street, New York City. Provide details for better accuracy, for example, Starbucks on Main Street in New York, instead of just Starbucks."
+permissions_error: |
+  <speak> You have refused to allow Greener access to the address information in the Alexa app. Greener cannot function without address information. To permit access to address information, enable Greener again, and consent to provide address information in the Alexa app.</speak>
+recommendation: "Your trip to {{ address }} has been calculated. Biking and walking will save {{drivingCarbon}} pounds of carbon. Taking Public Transit will save {{diffDrivingTransit}} pounds of carbon, but will be slower than driving. I've added all the trip information and navigation links to your Alexa App."
